@@ -12,7 +12,7 @@ import { LogggingService } from './logging.service';
 @NgModule({
   declarations: [AppComponent, AccountComponent, NewAccountComponent],
   imports: [BrowserModule, FormsModule, HttpModule],
-  providers: [AccountsService, LogggingService],
+  providers: [ LogggingService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
